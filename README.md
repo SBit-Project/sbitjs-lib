@@ -19,7 +19,7 @@ var sbitjs = require('sbitjs-lib')
 ```js
 {
     sbit: {
-        messagePrefix: '\x15SBit Signed Message:\n',
+        messagePrefix: '\x15Sbit Signed Message:\n',
         bech32: 'sc',
         bip32: {
             public: 0x0878c22a,
@@ -30,7 +30,7 @@ var sbitjs = require('sbitjs-lib')
         wif: 0x80
     },
     sbit_testnet: {
-        messagePrefix: '\x15SBit Signed Message:\n',
+        messagePrefix: '\x15Sbit Signed Message:\n',
         bech32: 'ts',
         bip32: {
             public: 0x084226ab,
