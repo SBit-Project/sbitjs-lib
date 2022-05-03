@@ -1,7 +1,5 @@
 # sbitjs-lib
-This is an extend lib for bitcoinjs-lib.
-It extends the network type of bitcoinjs-lib.
-It also provides an useful lib to help you building SBIT transactions.
+This is an extend library called sbitjs-lib, it supports two networks; sbit-mainnet and sbit-testnet. It can generate contracts and creating and send transactions
 
 ## Installation
 ``` bash
@@ -16,6 +14,8 @@ var sbitjs = require('sbitjs-lib')
 
 ## New features
 ### Network
+[List of address prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes)
+
 ```js
 {
     sbit: {
@@ -25,7 +25,7 @@ var sbitjs = require('sbitjs-lib')
             public: 0x0878c22a,
             private: 0x0878bda8
         },
-        pubKeyHash: 0x3F,
+        pubKeyHash: 0x3f,
         scriptHash: 0x32,
         wif: 0x80
     },
@@ -36,7 +36,7 @@ var sbitjs = require('sbitjs-lib')
             public: 0x084226ab,
             private: 0x08423661
         },
-        pubKeyHash: 0x7D,
+        pubKeyHash: 0x7d,
         scriptHash: 0x6e,
         wif: 0xef
     }
