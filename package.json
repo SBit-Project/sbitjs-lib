@@ -23,7 +23,7 @@
   "dependencies": {
     "bignumber.js": "^8.1.1",
     "bitcoinjs-lib": "^3.3.2",
-    "sbit-opcodes": "^1.0.0",
+    "sbit-opcodes": "^0.0.1",
     "safe-buffer": "^5.1.1"
   }
 }
