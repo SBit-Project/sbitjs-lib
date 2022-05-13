@@ -17,7 +17,7 @@ function selectTxs(unspentTransactions, amount, fee) {
     var matureList = []
     for(var i = 0; i < unspentTransactions.length; i++) {
       if(unspentTransactions[i].isStake === true) {
-        if (unspentTransactions[i].confirmations >= 500) {
+        if (unspentTransactions[i].confirmations >= 2000) {
           matureList[matureList.length] = unspentTransactions[i]
         }
       } else {
